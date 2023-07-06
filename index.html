@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Let’sBookIt</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="/fonts/stylesheet.css" />
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="nav__container">
+                <div class="nav-info">
+                    <div class="nav-info-left">
+                        <a class="nav-info__tel">+977 9878787845</a>
+                        <a class="nav-info__tel">let’sbookit@gmail.com</a>
+                    </div>
+                    <div class="nav-info-right">
+                        <div class="nav-info-right__social">
+                            <a href="" class="right-social__item">
+                                <img
+                                    class="nav-social-icon"
+                                    src="img/fac.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a href="" class="right-social__item">
+                                <img
+                                    class="nav-social-icon"
+                                    src="img/lin.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a href="" class="right-social__item">
+                                <img
+                                    class="nav-social-icon"
+                                    src="img/tw.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="nav-info-right__login">
+                            <button class="nav-btn">Log In</button>
+
+                            <button class="nav-btn active-btn">Sign Up</button>
+                        </div>
+                        <div class="nav-info-right__select">
+                            <select name="NRs" id="">
+                                <option class="options" value="1">NRs</option>
+                                <option class="options" value="2">NRs</option>
+                                <option class="options" value="3">NRs</option>
+                                <option class="options" value="4">NRs</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-menu">
+                    <div class="nav-menu__logo">
+                        <a href="#" class="menu-logo">
+                            <img src="img/logo.svg" alt="" class="logo" />
+                            <div class="logo-text">Let’sBookIt</div>
+                        </a>
+                    </div>
+                    <div class="burger"></div>
+                    <div class="nav-menu__list">
+                        <ul class="nav-menu-item">
+                            <li class="item__list">
+                                <a href="" class="items__link">About</a>
+                            </li>
+                            <li class="item__list">
+                                <a href="" class="items__link">Explore</a>
+                            </li>
+
+                            <li class="item__list">
+                                <a href="" class="items__link">Bookings</a>
+                            </li>
+
+                            <li class="item__list">
+                                <a href="" class="items__link">Find Ticket</a>
+                            </li>
+
+                            <li class="item__list">
+                                <a href="" class="items__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-main__container nav-main">
+                <div class="nav-main-wrap">
+                    <div class="nav-main__title">Say Yes to The World</div>
+                    <div class="nav-main__text">
+                        Pulvinar rhoncus eget non vulputate varius ullamcorper
+                        enim arcu mauris. Pharetra augue amet sit cursus. Leo
+                        commodo neque neque praesent. Aliquet tincidunt maecenas
+                        elementum eu ipsum erat. Velit quisque morbi nisl
+                        accumsan auctor at at nec.
+                    </div>
+                </div>
+                <div class="nav-main-input">
+                    <div class="nav-main-input__content">
+                        <label for="nav-labels1" class="nav-label"
+                            >Departure Airport</label
+                        >
+                        <div class="nav-inputs">
+                            <img src="img/point.svg" alt="" class="nav-icon" />
+                            <input
+                                class="nav-input"
+                                id="nav-labels1"
+                                type="text"
+                                placeholder="Where are you now?"
+                            />
+                        </div>
+                    </div>
+                    <div class="nav-main-input__content">
+                        <label for="nav-labels2" class="nav-label"
+                            >Arrival Airport</label
+                        >
+                        <div class="nav-inputs">
+                            <img src="img/point.svg" alt="" class="nav-icon" />
+                            <input
+                                class="nav-input"
+                                id="nav-labels2"
+                                type="text"
+                                placeholder="Where are you going?"
+                            />
+                        </div>
+                    </div>
+                    <div class="nav-main-input__content">
+                        <label for="nav-labels3" class="nav-label">Date</label>
+                        <div class="nav-inputs">
+                            <img src="img/case.svg" alt="" class="nav-icon" />
+                            <input
+                                class="nav-input"
+                                id="nav-labels3"
+                                type="text"
+                                placeholder="When are you leaving?"
+                            />
+                        </div>
+                    </div>
+                    <div class="nav-main-input__content">
+                        <label for="nav-labels4" class="nav-label"
+                            >Travellers</label
+                        >
+                        <div class="nav-inputs">
+                            <img
+                                src="img/persone.svg"
+                                alt=""
+                                class="nav-icon"
+                            />
+                            <input
+                                class="nav-input"
+                                id="nav-labels4"
+                                type="text"
+                                placeholder="Number of passengers"
+                            />
+                        </div>
+                    </div>
+                    <div class="wrap-btn">
+                        <div class="button-wrap">
+                            <button class="main-btn">Search Your Flight</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main__container">
+            <div class="main-content">
+                <div class="main-content__left">
+                    <div class="main-content-left__title title">
+                        Top Destinations
+                    </div>
+                    <div class="main-content-left__text text">
+                        Dui in in orci fermentum a. Maecenas nunc id ut auctor
+                        curabitur pellentesque id et tristique. Pellentesque et
+                        a nisl aliquam eget. Nam velit duis in mauris arcu
+                        vivamus amet turpis in. In bibendum placerat quam
+                        ullamcorper accumsan felis. Velit vitae pellentesque
+                        sagittis et consequat sit donec. Donec aenean vivamus
+                        ullamcorper urna aliquet faucibus lacus aliquet.
+                    </div>
+                    <div class="main-content-btn">
+                        <button class="main-content-button">
+                            Discover More
+                        </button>
+                    </div>
+                </div>
+                <div class="main-content__right">
+                    <div class="main-content-right__cart">
+                        <img src="img/1.jpg" alt="" class="right-img" />
+                        <div class="right-cart_content">
+                            <div class="cart-text-wrap">
+                                <p class="cart-text">
+                                    Tokyo,
+                                    <span class="accent"> <b>Japan</b> </span>
+                                </p>
+
+                                <p class="cart-text">Rs. 24,000 onwards.</p>
+                            </div>
+
+                            <img class="cart-icon" src="img/air.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="main-content-right__cart">
+                        <img src="img/2.jpg" alt="" class="right-img" />
+                        <div class="right-cart_content">
+                            <div class="cart-text-wrap">
+                                <p class="cart-text">
+                                    Tokyo,
+                                    <span class="accent"> <b>Japan</b> </span>
+                                </p>
+
+                                <p class="cart-text">Rs. 24,000 onwards.</p>
+                            </div>
+
+                            <img class="cart-icon" src="img/air.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="main-content-right__cart">
+                        <img src="img/3.jpg" alt="" class="right-img" />
+                        <div class="right-cart_content">
+                            <div class="cart-text-wrap">
+                                <p class="cart-text">
+                                    Tokyo,
+                                    <span class="accent"> <b>Japan</b> </span>
+                                </p>
+
+                                <p class="cart-text">Rs. 24,000 onwards.</p>
+                            </div>
+
+                            <img class="cart-icon" src="img/air.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="main-content-right__cart">
+                        <img src="img/4.jpg" alt="" class="right-img" />
+                        <div class="right-cart_content">
+                            <div class="cart-text-wrap">
+                                <p class="cart-text">
+                                    Tokyo,
+                                    <span class="accent"> <b>Japan</b> </span>
+                                </p>
+
+                                <p class="cart-text">Rs. 24,000 onwards.</p>
+                            </div>
+
+                            <img class="cart-icon" src="img/air.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="main-content-right__cart">
+                        <img src="img/2.jpg" alt="" class="right-img" />
+                        <div class="right-cart_content">
+                            <div class="cart-text-wrap">
+                                <p class="cart-text">
+                                    Tokyo,
+                                    <span class="accent"> <b>Japan</b> </span>
+                                </p>
+
+                                <p class="cart-text">Rs. 24,000 onwards.</p>
+                            </div>
+
+                            <img class="cart-icon" src="img/air.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="main-content-right__cart">
+                        <img src="img/1.jpg" alt="" class="right-img" />
+                        <div class="right-cart_content">
+                            <div class="cart-text-wrap">
+                                <p class="cart-text">
+                                    Tokyo,
+                                    <span class="accent"> <b>Japan</b> </span>
+                                </p>
+
+                                <p class="cart-text">Rs. 24,000 onwards.</p>
+                            </div>
+
+                            <img class="cart-icon" src="img/air.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section-offer">
+                <div class="offer">
+                    <div class="offer-left">
+                        <div class="offer-cart">
+                            <div class="offer-title">Instant Ticket</div>
+                            <div class="offer-text">
+                                Eu scelerisque amet amet malesuada id ultrices
+                                morbi. Vitae purus mauris hac nisi habitasse
+                                donec. Vitae integer massa in blandit.
+                            </div>
+                        </div>
+                        <div class="offer-cart">
+                            <div class="offer-title">Worldwide Flight</div>
+                            <div class="offer-text">
+                                Eu scelerisque amet amet malesuada id ultrices
+                                morbi. Vitae purus mauris hac nisi habitasse
+                                donec. Vitae integer massa in blandit.
+                            </div>
+                        </div>
+                        <div class="offer-cart">
+                            <div class="offer-title">Trusted Booking</div>
+                            <div class="offer-text">
+                                Eu scelerisque amet amet malesuada id ultrices
+                                morbi. Vitae purus mauris hac nisi habitasse
+                                donec. Vitae integer massa in blandit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-right">
+                        <div class="offer-right__title">
+                            <div class="offer-right-title title">
+                                We Offer Best Services
+                            </div>
+                            <div class="right-btn">
+                                <button class="offer-button">
+                                    Discover More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer__container">
+            <div class="footer-content">
+                <div class="footer-title">
+                    Subscribe to Get Notified About Latest Deals & Offers
+                </div>
+                <div class="footer-text">
+                    Eu scelerisque amet amet malesuada id ultrices morbi. Vitae
+                    purus mauris hac nisi habitasse donec. Vitae integer massa
+                    in blandit.
+                </div>
+                <div class="footer-form">
+                    <form class="forms" action="">
+                        <div class="input-wrap">
+                            <img
+                                class="footer-icon"
+                                src="img/mails.svg"
+                                alt=""
+                            />
+                            <input
+                                class="footer-inp"
+                                type="text"
+                                placeholder="Email Address"
+                            />
+                        </div>
+                        <button class="footer-btn">Email Address</button>
+                    </form>
+                </div>
+                <img src="img/mail.svg" alt="" class="footer-img" />
+            </div>
+        </footer>
+        <section class="foter__container">
+            <div class="foter">
+                <div class="nav-menu__logo flogo">
+                    <a href="#" class="menu-logo">
+                        <img src="img/logo.svg" alt="" class="logo" />
+                        <div class="logo-text">Let’sBookIt</div>
+                    </a>
+                </div>
+                <div class="footer-par-text">
+                    Eu scelerisque amet amet malesuada id ultrices morbi. Vitae
+                    purus mauris hac nisi habitasse donec. Vitae integer massa
+                    in blandit.
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-menu__items">
+                        <li class="footer-menu__item">
+                            <a href="" class="footer-menu__link">About</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="" class="footer-menu__link">Explore</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="" class="footer-menu__link">Bookings</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="" class="footer-menu__link">Find Ticket</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a href="" class="footer-menu__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-par-label">Designed by @sakila</div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
