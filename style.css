@@ -75,10 +75,17 @@ body {
     margin: 0px auto; /*поставити контент по центру*/
 }
 .header {
-    background-image: url(/img/main.png);
+    /* background-image: url(/main.png); */
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 904px;
+    position: relative;
+}
+.main-img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
 }
 
 .nav__container {
